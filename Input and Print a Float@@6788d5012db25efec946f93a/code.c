@@ -1,10 +1,7 @@
 #include <stdio.h>
 int main() {
-    float num1,num2;
-    printf("enter the number:");
-    scanf("%f",&num1);
-    printf("enter the number:");
-    scanf("%f",&num2);
-    printf("you entered:%f and %f\n",num1,num2);
+    float n;
+    scanf("%.2f",&n);
+    printf("you entered:%.2f",n);
     return 0;
 }

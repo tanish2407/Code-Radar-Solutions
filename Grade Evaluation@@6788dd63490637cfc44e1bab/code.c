@@ -2,9 +2,9 @@
 
 
 int main() {
-    char A;
-    scanf("%c",&A);
-    switch(A){
+    char a;
+    scanf("%c",&a);
+    switch(a){
         case A:
             printf("Excellent");
             break;

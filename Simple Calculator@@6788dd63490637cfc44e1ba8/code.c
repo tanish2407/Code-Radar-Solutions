@@ -4,7 +4,7 @@ int main() {
     char oper;
     scanf("%d %d",&a,&b);
     scanf("%c",&oper);
-    switch(oper);{
+    switch(oper){
         case '+':
             printf("%d",a+b);
             break;
@@ -15,7 +15,12 @@ int main() {
             printf("%d",a*b);
             break;
         case '/':
-            printf("%d",a/b);
+            if(b!=0){
+                printf("%d",a/b);
+            }
+            else{
+                printf("Error");
+            }
             break;
         default:
             printf("Error");

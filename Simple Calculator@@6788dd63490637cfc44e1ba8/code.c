@@ -2,14 +2,9 @@
 int main() {
     int a,b;
     char oper;
-    printf("enter first number:");
-    scanf("%d",&a);
-    printf("enter second number:");
-    scanf("%d",&b);
-    printf("enter the operator:");
-    scanf("%c",&oper);
+    scanf("%d %d",&a,&b);
 
-  
+    scanf("%c",&oper);
     switch(oper){
         case '+':
             printf("%d",a+b);
@@ -21,8 +16,12 @@ int main() {
             printf("%d",a*b);
             break;
         case '/':
-            
-            printf("%d",a/b);
+            if(b!=0){
+                printf("%d",a/b);
+            }
+            else{
+                printf("Error");
+            }
             break;
         default:
             printf("Error");

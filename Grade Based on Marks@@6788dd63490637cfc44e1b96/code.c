@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int n;
-    scanf("5d")
+    scanf("%d",n);
     if(n>=90){
         printf("A");
     }

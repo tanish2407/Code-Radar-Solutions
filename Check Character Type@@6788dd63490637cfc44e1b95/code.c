@@ -2,14 +2,22 @@
 int main() {
     char b;
     scanf("%c",&b);
-    if((b==a) || (b==e) || (b==i) || (b==o) || (b==u))
-    printf("Vowel");
-    else if(b==_)
-    printf("Special Character");
-    else if(b>=0)
-    printf("Digit");
+    if(b>='A'&&b<='Z'){
+        b = b+32;
+    }
+    if(b>='0'&&b<='9'){
+        printf("Digit");
+    }
+    else if(b>='a'&&b<='z'){
+        if(b=='a' ||b=='i'||b=='o'||b=='e'||b=='u'){
+            printf("Vowel");
+        }
+        else{
+            printf("Consonant");
+        }
+    }
     else{
-        printf("Consonant");
+        printf("Special Character");
     }
     return 0;
 }

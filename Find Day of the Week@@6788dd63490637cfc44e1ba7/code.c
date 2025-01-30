@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int a;
-    printf("Write a single integer between 1-7:");
+
     scanf("%d",&a);
     switch (a){
         case 1:

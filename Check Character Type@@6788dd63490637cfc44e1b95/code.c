@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    char b;
+    char b,vowel,Consonant,Special,Digit;
     scanf("%c",&b);
-    if(b>='A'&&b<='Z'){
+    if(b>='A'&& b<='Z'){
         b = b+32;
     }
     if(b>='0'&&b<='9'){

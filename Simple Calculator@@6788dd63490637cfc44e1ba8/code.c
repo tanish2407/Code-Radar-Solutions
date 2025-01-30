@@ -3,6 +3,7 @@ int main() {
     int a,b;
     char oper;
     scanf("%d %d",&a,&b);
+    printf("enter the operator:");
     scanf("%c",&oper);
     switch(oper){
         case '+':

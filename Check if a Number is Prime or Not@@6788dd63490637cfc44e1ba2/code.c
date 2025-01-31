@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
-    int a=0,prime=1;
+    int a,prime=1;
+    scanf("%d",&a);
     if(a==0 || a==1){
         prime=0;
     }

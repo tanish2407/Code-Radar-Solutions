@@ -6,8 +6,8 @@ int main() {
     }
     else{
         for(int i=2;i<a;i++){
-            if(n%i==0)
-            prime=0;
+            if(n%i==0){
+            prime=0;}
         }
     }
     if(prime==1){

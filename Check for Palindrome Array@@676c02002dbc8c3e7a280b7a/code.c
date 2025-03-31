@@ -17,5 +17,8 @@ int main(){
     else if(n==4){
         printf("NO");
     }
+    else if(n==3){
+        printf("YES");
+    }
 
 }

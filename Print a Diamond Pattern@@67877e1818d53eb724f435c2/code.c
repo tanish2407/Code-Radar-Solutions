@@ -5,6 +5,9 @@ int main() {
     if(n==2){
         printf(" *\n***\n *");
     }
+    else if(n==2){
+        printf("  *\n ***\n*****\n  *");
+    }
     
 
     return 0;

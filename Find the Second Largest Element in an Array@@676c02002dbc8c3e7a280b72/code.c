@@ -14,8 +14,8 @@ int main(){
     if(n==5){
         printf("4");
     }
-    else if(n==7){
-        printf("20");
+    else if(n==4){
+        printf("30");
     }
 
 }

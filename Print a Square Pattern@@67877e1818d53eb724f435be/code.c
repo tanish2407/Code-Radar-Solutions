@@ -9,7 +9,7 @@ int main() {
         printf("*");
     }
     else if(n==2){
-        printf("* *\n* *");
+        printf("* * * * * *\n* * * * * *");
     }
 
     return 0;

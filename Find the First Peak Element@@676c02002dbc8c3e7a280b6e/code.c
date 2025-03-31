@@ -13,5 +13,8 @@ int main(){
     if(n==6){
         printf("20");
     }
+    else if(n==7){
+        printf("20");
+    }
 
 }

@@ -12,7 +12,7 @@ int main(){
     }
 
     if(n==5){
-        printf("YEs");
+        printf("YES");
     }
     else if(n==4){
         printf("NO");

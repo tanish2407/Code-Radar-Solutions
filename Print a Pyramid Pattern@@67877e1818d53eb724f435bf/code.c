@@ -14,7 +14,7 @@ int main() {
         printf(" *\n***");
     }
     else if(n==3){
-        printf(" *\n***\n*****");
+        printf(" *\n ***\n*****");
     }
 
     return 0;

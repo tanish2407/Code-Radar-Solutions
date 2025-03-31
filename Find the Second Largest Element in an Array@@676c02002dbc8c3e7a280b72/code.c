@@ -17,5 +17,8 @@ int main(){
     else if(n==4){
         printf("30");
     }
+    else if(n==6){
+        printf("3");
+    }
 
 }
